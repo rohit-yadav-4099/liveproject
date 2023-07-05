@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.contener1{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20vh 10vh 0vh 10vh;
+    gap: 10px;
+}
+.box{
+    width: 175px;
+    height: 200px;
+    position: relative;
+    background-color: #EE9342;
+    margin-left: 10px;
+    text-align: center;
+    padding-top: 70px;
+    box-sizing: border-box;
+    
+
+}
+:hover.box{
+    background-color: #1CD107;
+}
+
+.card1{
+    margin-left: 150px;
+}
+:hover.card1{
+    
+    animation: card_1 2s infinite;
+}
+@keyframes card_1{
+    100%{
+        transform: rotate(-60deg);
+        background-color: #1CD107;
+    }
+    
+}
+
+:hover.card2{
+    animation: card_2 2s infinite;
+}
+@keyframes card_2{
+    100%{
+        transform: rotate(360deg);
+        background-color: #1CD107;
+    }
+    
+}
+:hover.card3{
+    animation: card_3 2s infinite;
+}
+@keyframes card_3{
+    100%{
+        transform: rotate(-360deg);
+        background-color: #1CD107;
+    }
+    
+}
+.card6{
+    margin-left: 150px;
+}
+
+:hover.card4{
+    animation: card_4 2s infinite;
+}
+@keyframes card_4{
+    100%{
+        transform: scaleX(-1);
+        /* filter: flip; */
+        background-color: #1CD107;
+    }
+    
+}
+:hover.card5{
+    animation: card_5 2s infinite;
+}
+@keyframes card_5{
+    100%{
+        transform: scaleX(-1) scaleX(-1);
+        background-color: #1CD107;
+    }
+    
+}
+:hover.card6{
+    animation: card_6 2s infinite;
+}
+@keyframes card_6{
+    100%{
+        transform: scaleY(-1);
+        background-color: #1CD107;
+    }
+    
+}
+:hover.card7{
+    animation: card_7 2s infinite;
+}
+@keyframes card_7{
+    100%{
+        transform: scaleY(-1) scaleY(-1);
+        background-color: #1CD107;
+    }
+    
+}
+:hover.card8{
+    padding: 10px;
+    box-shadow: 0px 0px 10px 5px #1CD107 inset;
+}
+:hover.card9{
+    padding: 10px;
+    box-shadow: 5px 10px 20px 5px #1CD107 ;
+}
+:hover.card10{
+    padding: 10px;
+    box-shadow: 0px 0px 10px 5px #1CD107  ;
+}
+@media only screen and (min-width:300px)and(max-width:700px){
+
+}
+:hover.box{
+    background-color: #1CD107;
+}
+
+
+:hover.card1{
+    
+    animation: card_1 2s infinite;
+}
+@keyframes card_1{
+    100%{
+        transform: rotate(-60deg);
+        background-color: #1CD107;
+    }
+    
+}
+
+:hover.card2{
+    animation: card_2 2s infinite;
+}
+@keyframes card_2{
+    100%{
+        transform: rotate(360deg);
+        background-color: #1CD107;
+    }
+    
+}
+:hover.card3{
+    animation: card_3 2s infinite;
+}
+@keyframes card_3{
+    100%{
+        transform: rotate(-360deg);
+        background-color: #1CD107;
+    }
+    
+}
+
+
+
+:hover.card4{
+    animation: card_4 2s infinite;
+}
+@keyframes card_4{
+    100%{
+        transform: scaleX(-1);
+        background-color: #1CD107;
+    }
+    
+}
+:hover.card5{
+    animation: card_5 2s infinite;
+}
+@keyframes card_5{
+    100%{
+        transform: scaleX(-1) scaleX(-1);
+        background-color: #1CD107;
+    }
+    
+}
+:hover.card6{
+    animation: card_6 2s infinite;
+}
+@keyframes card_6{
+    100%{
+        transform: scaleY(-1);
+        background-color: #1CD107;
+    }
+    
+}
+:hover.card7{
+    animation: card_7 2s infinite;
+}
+@keyframes card_7{
+    100%{
+        transform: scaleY(-1) scaleY(-1);
+        background-color: #1CD107;
+    }
+    
+}
+:hover.card8{
+    padding: 10px;
+    box-shadow: 0px 0px 10px 5px #1CD107 inset;
+}
+:hover.card9{
+    padding: 10px;
+    box-shadow: 5px 10px 20px 5px #1CD107 ;
+}
+:hover.card10{
+    padding: 10px;
+    box-shadow: 0px 0px 10px 5px #1CD107  ;
+}
